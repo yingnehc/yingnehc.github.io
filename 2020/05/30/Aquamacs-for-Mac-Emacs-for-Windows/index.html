@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="browsermode" content="application">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ying Chen">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="msapplication-navbutton-color" content="#666666">
+<meta name= "format-detection" content="telephone=no" />
+
+
+
+
+
+
+<link rel="apple-touch-startup-image" media="(device-width: 375px)" href="assets/apple-launch-1125x2436.png">
+<link rel="apple-touch-startup-image" media="(orientation: landscape)" href="assets/apple-touch-startup-image-2048x1496.png">
+
+<link rel="stylesheet" href="/style/style.css">
+
+<script>
+  var nlviconfig = {
+    title: "Ying Chen",
+    author: "Ying Chen",
+    baseUrl: "/",
+    theme: {
+      scheme: "banderole",
+      lightbox: true,
+      animate: true,
+      search: false,
+      friends: false,
+      reward: false,
+      pjax: false,
+      lazy: false,
+      toc: true
+    }
+  }
+</script>
+
+
+
+
+    
+<link rel="stylesheet" href="/script/lib/lightbox/css/lightbox.min.css">
+
+
+
+
+
+    
+<link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+@font-face {
+  font-family: "Allura";
+  src: url('/font/allura/allura.ttf');
+}
+</style>
+
+  <title> Emacs · Ying Chen </title>
+<meta name="generator" content="Hexo 4.2.1"></head>
+<body>
+  <div class="container">
+    <header class="header" id="header">
+  <div class="header-wrapper">
+    <div class="logo">
+  <div class="logo-inner syuanpi tvIn" style="display:none;">
+    <h1><a href="/">Ying Chen</a></h1>
+    
+  </div>
+</div>
+
+    <nav class="main-nav">
+  
+  <ul class="main-nav-list syuanpi tvIn">
+  
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/" id="home">
+        <span class="base-name">
+          
+            HOME
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/research" id="Research">
+        <span class="base-name">
+          
+            RESEARCH
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/stata" id="STATA Tips">
+        <span class="base-name">
+          
+            STATA TIPS
+          
+        </span>
+      </a>
+    </li>
+  
+  
+
+  
+    <li class="menu-item">
+      <a href="/images/2020/05/31/06a58a59-c6f2-451a-9f92-853ea3ffcc06.pdf" id="cv" target="_black">
+        CV
+      </a>
+    </li>
+  
+  </ul>
+  
+</nav>
+
+  </div>
+</header>
+<div class="mobile-header" id="mobile-header">
+  <div class="mobile-header-nav">
+    <div class="mobile-header-item" id="mobile-left">
+      <div class="header-menu-item">
+        <div class="header-menu-line"></div>
+      </div>
+    </div>
+    <h1 class="mobile-header-title">
+      <a href="/">Ying Chen</a>
+    </h1>
+    <div class="mobile-header-item"></div>
+  </div>
+  <div class="mobile-header-body">
+    <ul class="mobile-header-list">
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-0">
+          <a href="/" >
+            
+              HOME
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-1">
+          <a href="/research" >
+            
+              RESEARCH
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-2">
+          <a href="/stata" >
+            
+              STATA TIPS
+            
+          </a>
+        </li>
+      
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-0">
+          <a href="/images/2020/05/31/06a58a59-c6f2-451a-9f92-853ea3ffcc06.pdf" id="cv" target="_black">
+            CV
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+    <div class="container-inner" style="display:none;">
+      <main class="main" id="main">
+        <div class="main-wrapper">
+          
+    
+  
+  <article class="
+  post
+   is_post 
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInRightShort back-1">
+        <div class="post-time-wrapper">
+          
+          <time>2020-05-30</time>
+          
+            
+              <span class="post-category"><a href="/categories/STATA/">STATA</a></span>
+            
+          
+        </div>
+      </div>
+      <h2 class="post-title syuanpi fadeInRightShort back-2">
+        
+          Emacs
+        
+      </h2>
+    </header>
+    <div class="post-content syuanpi fadeInRightShort back-3">
+      
+        <h4 id="Why-Emacs"><a href="#Why-Emacs" class="headerlink" title="Why Emacs?"></a>Why Emacs?</h4><p>I spent a long time trying to find a Notepad++ equivalent for Mac OS. As recommended by others, I have tried TextWrangler, Smultron, and TextMate (the trial/free version, of course). Among the above mentioned, I liked TextWrangler the most. But in one way or another, they can’t match the same level of user-friendliness of Notepad++ on Windows.</p>
+<p>This frustration led me to step into the realm of real programmers and start learning to use Aquamacs (based on GNU Emacs but has Mac-looking interface). For starters, it is certainly more difficult to learn than Notepad++. However, it is great for editing STATA do-files, TeX files, R scripts (which Aquamacs can run internally), etc. It is, in my opinion, also the best free TeX editor for both Windows and Mac OS. You could also use it to compare files, which comes in handy if you want to tell apart similar do-files. And these are just the tip of the iceberg of what Aquamacs is capable of. In short, Aquamacs will be worth your investment (of time) in the long run.</p>
+<p><em>This note only offers a few useful links. If you run into trouble with any of them, or find anything difficult to follow, feel free to get in touch with me via email.</em></p>
+<p>Set up Aquamacs: Download and install <a href="http://aquamacs.org/" target="_blank" rel="noopener">Aquamacs</a>.</p>
+<p><strong>Getting started with Aquamacs:</strong> is essentially the same as Emacs. Therefore, almost all Emacs help files apply to Aquamacs. A thorough introduction by Jeremy Zawodny can be found <a href="http://www.tldp.org/HOWTO/Emacs-Beginner-HOWTO.html#toc4" target="_blank" rel="noopener">here</a>. The most useful chapters for me are 2, 4, and 5. Make sure you follow through the tutorials closely.</p>
+<p><strong>Integrating with Stata:</strong> unfortunately Stata does not come as a default Emacs mode. But thanks to Bill Rising and his ado-mode, this is made possible and simple. Please follow his tutorial <a href="http://louabill.org/Stata/send2stata.html" target="_blank" rel="noopener">here</a>. </p>
+<p><strong>Integrating with LaTeX:</strong> Tex mode comes as default with Emacs, and made better with the AUCTeX extension <a href="https://www.gnu.org/software/auctex/" target="_blank" rel="noopener">here</a>.</p>
+
+      
+    
+    </div>
+    
+    
+      
+
+      
+    
+  </article>
+  
+    
+  <!-- <nav class="article-page">
+    
+      <a href="/2020/05/30/research1/" id="art-left" class="art-left">
+        <span class="next-title">
+          <i class="iconfont icon-left"></i>research1
+        </span>
+      </a>
+    
+    
+      <a href="/2020/05/28/Notepad-for-Windows-users/" id="art-right" class="art-right">
+        <span class="prev-title">
+          Notepad++: for Windows users<i class="iconfont icon-right"></i>
+        </span>
+      </a>
+    
+  </nav> -->
+
+
+    
+  <i id="com-switch" class="iconfont icon-down jumping-in long infinite" style="font-size:24px;display:block;text-align:center;transform:rotate(180deg);"></i>
+  <div class="post-comments" id="post-comments" style="display: block;margin: auto 16px;">
+    
+
+    
+    
+
+    
+
+  </div>
+
+
+
+  
+  
+    
+  
+  <aside class="post-toc">
+    <div class="title"><span>Index</span></div>
+    <div class="toc-inner">
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#Why-Emacs"><span class="toc-text">Why Emacs?</span></a></li></ol>
+    </div>
+  </aside>
+
+
+
+  
+
+
+        </div>
+      </main>
+    </div>
+    <div class="tagcloud" id="tagcloud">
+  <div class="tagcloud-taglist">
+  
+  </div>
+  
+</div>
+
+  </div>
+  <div class="backtop syuanpi melt toTop" id="backtop">
+    <i class="iconfont icon-up"></i>
+    <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+
+
+  <script></script>
+  <script src="/script/lib/lightbox/js/lightbox.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="/script/scheme/banderole.js"></script>
+
+
+
+
+<script src="/script/bootstarp.js"></script>
+
+
+
+<script>
+if (nlviconfig.theme.toc) {
+  setTimeout(function() {
+    if (nlviconfig.theme.scheme === 'balance') {
+      $("#header").addClass("show_toc");
+    } else if (nlviconfig.theme.scheme === 'banderole') {
+      $(".container-inner").addClass("has_toc");
+      $(".post-toc .title").addClass("show");
+      $(".toc-inner").addClass("show");
+    }
+  }, 1000);
+}
+</script>
+
+
+
+</body>
+</html>
